@@ -1,0 +1,34 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+#dealer-cards img {
+    height: 150px;
+    width: 100px;
+    margin: 1.5px;
+}
+
+#player-cards img {
+    height: 150px;
+    width: 100px;
+    margin: 1.5px;
+}
+
+#hit{
+    border-radius: 20%;
+    height: 45px;
+    width: 55px;
+    margin: 5ox;
+    color: white;
+    background-color: black;
+}
+
+#stay{
+    border-radius: 20%;
+    height: 45px;
+    width: 55px;
+    margin: 5px;
+    color: white;
+    background-color: black;
+}
