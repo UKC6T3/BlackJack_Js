@@ -149,14 +149,12 @@ function reduceAce(Sum,Aces){
         Sum  -=  10;
         Aces -=1;
     }
-    console.log(Sum)
     return [Sum,Aces];
 }
 
 function dealerDraw(){
     const dealer = document.getElementById("dealer-cards");
     dealer.removeChild(dealer.lastElementChild)
-    console.log(hidden)
     putTheCards(hidden,"dealer")
 
     while(dealer_sum<=17)
